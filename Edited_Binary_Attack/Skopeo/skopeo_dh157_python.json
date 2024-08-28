@@ -1,0 +1,58 @@
+{
+    "Name": "docker.io/dh157/python",
+    "Digest": "sha256:d2a76b1ced901329dfb74a893f1f31c3031e3f62b1aae39322e1e33f59afd86f",
+    "RepoTags": [],
+    "Created": "2024-08-07T15:49:22Z",
+    "DockerVersion": "",
+    "Labels": null,
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Layers": [
+        "sha256:9853575bc4f955c5892dd64187538a6cd02dba6968eba9201854876a7a257034",
+        "sha256:3fab91424116cce9add4de6ba0e4455a17b667c82370c744004eef8ec6126df5",
+        "sha256:0f133673286479efe18f8dca1d445fa7b045dcd7a61cbf783fb5c58bc82cc5e5",
+        "sha256:925a96ecb7c50d553f3be6218abe4c4985af804bb15bce10bd7bbc66795069ed",
+        "sha256:9f7ca14bbcf60dadac36b03fa99cfa2bd67b883994ac2fc048d1cf202b005c18"
+    ],
+    "LayersData": [
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:9853575bc4f955c5892dd64187538a6cd02dba6968eba9201854876a7a257034",
+            "Size": 77832704,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:3fab91424116cce9add4de6ba0e4455a17b667c82370c744004eef8ec6126df5",
+            "Size": 9539072,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:0f133673286479efe18f8dca1d445fa7b045dcd7a61cbf783fb5c58bc82cc5e5",
+            "Size": 42117120,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:925a96ecb7c50d553f3be6218abe4c4985af804bb15bce10bd7bbc66795069ed",
+            "Size": 4608,
+            "Annotations": null
+        },
+        {
+            "MIMEType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "Digest": "sha256:9f7ca14bbcf60dadac36b03fa99cfa2bd67b883994ac2fc048d1cf202b005c18",
+            "Size": 13671424,
+            "Annotations": null
+        }
+    ],
+    "Env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.12.5",
+        "PYTHON_PIP_VERSION=24.2",
+        "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/66d8a0f637083e2c3ddffc0cb1e65ce126afb856/public/get-pip.py",
+        "PYTHON_GET_PIP_SHA256=6fb7b781206356f45ad79efbb19322caa6c2a5ad39092d0d44d0fec94117e118"
+    ]
+}

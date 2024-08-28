@@ -1,0 +1,152 @@
+{
+  "Timestamp": "2024-08-20T13:16:01.901651733Z",
+  "Image Name": "",
+  "Image ID": "python:3.12-slim",
+  "Container ID": "",
+  "IOC": [
+    {
+      "Matched Rule Name": "spyeye",
+      "Category": [
+        "banker"
+      ],
+      "FileSeverity": "low",
+      "Full File Name": "/usr/local/lib/python3.12/site-packages/pip/_vendor/distlib/wheel.py",
+      "rule meta": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "author : Jean-Philippe Teissier / @Jipe_ \n",
+        "description : SpyEye X.Y memory \n",
+        "date : 2012-05-23 \n",
+        "version : 1.0 \n",
+        "filetype : memory \n"
+      ],
+      "rule metadata": {
+        "author": "Jean-Philippe Teissier / @Jipe_ ",
+        "date": "2012-05-23 ",
+        "description": "SpyEye X.Y memory ",
+        "filetype": "memory ",
+        "version": "1.0 "
+      },
+      "Summary": "The matched rule file's  author  is Jean-Philippe Teissier / @Jipe_ .The file has a rule match that  SpyEye X.Y memory .The matched rule file's  date  is 2012-05-23 .The matched rule file's  version  is 1.0 .The matched rule file's  filetype  is memory .",
+      "Class": "Undefined",
+      "matches": [
+        {
+          "Offset": 9472,
+          "Data": "data_after"
+        },
+        {
+          "Offset": 9966,
+          "Data": "data_after"
+        }
+      ]
+    },
+    {
+      "Matched Rule Name": "spyeye_plugins",
+      "Category": [
+        "banker"
+      ],
+      "FileSeverity": "low",
+      "Full File Name": "/etc/debconf.conf",
+      "rule meta": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "author : Jean-Philippe Teissier / @Jipe_ \n",
+        "description : SpyEye X.Y Plugins memory \n",
+        "date : 2012-05-23 \n",
+        "version : 1.0 \n",
+        "filetype : memory \n"
+      ],
+      "rule metadata": {
+        "author": "Jean-Philippe Teissier / @Jipe_ ",
+        "date": "2012-05-23 ",
+        "description": "SpyEye X.Y Plugins memory ",
+        "filetype": "memory ",
+        "version": "1.0 "
+      },
+      "Summary": "The matched rule file's  author  is Jean-Philippe Teissier / @Jipe_ .The file has a rule match that  SpyEye X.Y Plugins memory .The matched rule file's  date  is 2012-05-23 .The matched rule file's  version  is 1.0 .The matched rule file's  filetype  is memory .",
+      "Class": "Undefined",
+      "matches": [
+        {
+          "Offset": 692,
+          "Data": "config.dat"
+        }
+      ]
+    },
+    {
+      "Matched Rule Name": "spyeye_plugins",
+      "Category": [
+        "banker"
+      ],
+      "FileSeverity": "low",
+      "Full File Name": "/usr/share/debconf/debconf.conf",
+      "rule meta": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "author : Jean-Philippe Teissier / @Jipe_ \n",
+        "description : SpyEye X.Y Plugins memory \n",
+        "date : 2012-05-23 \n",
+        "version : 1.0 \n",
+        "filetype : memory \n"
+      ],
+      "rule metadata": {
+        "author": "Jean-Philippe Teissier / @Jipe_ ",
+        "date": "2012-05-23 ",
+        "description": "SpyEye X.Y Plugins memory ",
+        "filetype": "memory ",
+        "version": "1.0 "
+      },
+      "Summary": "The matched rule file's  author  is Jean-Philippe Teissier / @Jipe_ .The file has a rule match that  SpyEye X.Y Plugins memory .The matched rule file's  date  is 2012-05-23 .The matched rule file's  version  is 1.0 .The matched rule file's  filetype  is memory .",
+      "Class": "Undefined",
+      "matches": [
+        {
+          "Offset": 128,
+          "Data": "config.dat"
+        }
+      ]
+    },
+    {
+      "Matched Rule Name": "spyeye",
+      "Category": [
+        "banker"
+      ],
+      "FileSeverity": "low",
+      "Full File Name": "/var/lib/dpkg/info/libc6:amd64.symbols",
+      "rule meta": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "author : Jean-Philippe Teissier / @Jipe_ \n",
+        "description : SpyEye X.Y memory \n",
+        "date : 2012-05-23 \n",
+        "version : 1.0 \n",
+        "filetype : memory \n"
+      ],
+      "rule metadata": {
+        "author": "Jean-Philippe Teissier / @Jipe_ ",
+        "date": "2012-05-23 ",
+        "description": "SpyEye X.Y memory ",
+        "filetype": "memory ",
+        "version": "1.0 "
+      },
+      "Summary": "The matched rule file's  author  is Jean-Philippe Teissier / @Jipe_ .The file has a rule match that  SpyEye X.Y memory .The matched rule file's  date  is 2012-05-23 .The matched rule file's  version  is 1.0 .The matched rule file's  filetype  is memory .",
+      "Class": "Undefined",
+      "matches": [
+        {
+          "Offset": 17703,
+          "Data": "data_end"
+        }
+      ]
+    }
+  ]
+}

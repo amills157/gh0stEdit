@@ -1,0 +1,221 @@
+  
+  
+  ## Overview
+  
+                      │       Analyzed Image        │      Comparison Image        
+  ────────────────────┼─────────────────────────────┼──────────────────────────────
+    Target            │  local://python:3.12-slim   │  dh157/python:3.12-slim      
+      digest          │  48061205ecd4               │  54a3d1e0986e                
+      tag             │  3.12-slim                  │  3.12-slim                   
+      platform        │ linux/amd64                 │ linux/amd64                  
+      vulnerabilities │    0C     1H     0M    28L  │    0C     1H     0M    28L   
+                      │                             │                              
+      size            │ 54 MB (-6.8 MB)             │ 61 MB                        
+      packages        │ 174                         │ 174                          
+                      │                             │                              
+    Base image        │  debian:12-slim             │  debian:12-slim              
+      tags            │ also known as               │ also known as                
+                      │   • 12.6-slim               │   • 12.6-slim                
+                      │   • bookworm-20240812-slim  │   • bookworm-20240812-slim   
+                      │   • bookworm-slim           │   • bookworm-slim            
+      vulnerabilities │    0C     0H     0M    23L  │    0C     0H     0M    23L   
+  
+  
+  ## Environment Variables
+  
+  
+      GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305
+      LANG=C.UTF-8
+      PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      PYTHON_GET_PIP_SHA256=6fb7b781206356f45ad79efbb19322caa6c2a5ad39092d0d44d0fec94117e118
+      PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/66d8a0f637083e2c3ddffc0cb1e65ce126afb856/public/get-pip.py
+      PYTHON_PIP_VERSION=24.2
+      PYTHON_VERSION=3.12.5
+  
+  
+  
+  ## Packages and Vulnerabilities
+  
+  
+       173 packages unchanged
+  
+  
+  
+  
+     Package                 Type     Version                Compared Version       
+  
+     Simple Launcher         nuget    1.1.0.14               1.1.0.14               
+     acl                     deb      2.3.1-3                2.3.1-3                
+     adduser                 deb      3.134                  3.134                  
+     apt                     deb      2.6.1                  2.6.1                  
+     attr                    deb      1:2.5.1-4              1:2.5.1-4              
+     audit                   deb      1:3.0.9-1              1:3.0.9-1              
+     autocommand             pypi     2.2.2                  2.2.2                  
+     backports.tarfile       pypi     1.2.0                  1.2.0                  
+     base-files              deb      12.4+deb12u6           12.4+deb12u6           
+     base-passwd             deb      3.6.1                  3.6.1                  
+     bash                    deb      5.2.15-2+b7            5.2.15-2+b7            
+     bsdutils                deb      1:2.38.1-5+deb12u1     1:2.38.1-5+deb12u1     
+     bzip2                   deb      1.0.8-5                1.0.8-5                
+     ca-certificates         deb      20230311               20230311               
+     cdebconf                deb      0.270                  0.270                  
+     coreutils               deb      9.1-1                  9.1-1                  
+     dash                    deb      0.5.12-2               0.5.12-2               
+     db5.3                   deb      5.3.28+dfsg2-1         5.3.28+dfsg2-1         
+     debconf                 deb      1.5.82                 1.5.82                 
+     debian-archive-keyring  deb      2023.3+deb12u1         2023.3+deb12u1         
+     debianutils             deb      5.7-0.5~deb12u1        5.7-0.5~deb12u1        
+     diffutils               deb      1:3.8-4                1:3.8-4                
+     dpkg                    deb      1.21.22                1.21.22                
+     e2fsprogs               deb      1.47.0-2               1.47.0-2               
+     expat                   deb      2.5.0-1                2.5.0-1                
+     findutils               deb      4.9.0-4                4.9.0-4                
+     gcc-12                  deb      12.2.0-14              12.2.0-14              
+     gcc-12-base             deb      12.2.0-14              12.2.0-14              
+     gdbm                    deb      1.23-3                 1.23-3                 
+     glibc                   deb      2.36-9+deb12u7         2.36-9+deb12u7         
+     gmp                     deb      2:6.2.1+dfsg1-1.1      2:6.2.1+dfsg1-1.1      
+     gnupg2                  deb      2.2.40-1.1             2.2.40-1.1             
+     gnutls28                deb      3.7.9-2+deb12u3        3.7.9-2+deb12u3        
+     gpgv                    deb      2.2.40-1.1             2.2.40-1.1             
+     grep                    deb      3.8-5                  3.8-5                  
+     gzip                    deb      1.12-1                 1.12-1                 
+     hostname                deb      3.23+nmu1              3.23+nmu1              
+     importlib-metadata      pypi     8.0.0                  8.0.0                  
+     importlib-resources     pypi     6.4.0                  6.4.0                  
+     inflect                 pypi     7.3.1                  7.3.1                  
+     init-system-helpers     deb      1.65.2                 1.65.2                 
+     jaraco.context          pypi     5.3.0                  5.3.0                  
+     jaraco.functools        pypi     4.0.1                  4.0.1                  
+     jaraco.text             pypi     3.12.1                 3.12.1                 
+     keyutils                deb      1.6.3-2                1.6.3-2                
+     krb5                    deb      1.20.1-2+deb12u2       1.20.1-2+deb12u2       
+     libacl1                 deb      2.3.1-3                2.3.1-3                
+     libapt-pkg6.0           deb      2.6.1                  2.6.1                  
+     libattr1                deb      1:2.5.1-4              1:2.5.1-4              
+     libaudit-common         deb      1:3.0.9-1              1:3.0.9-1              
+     libaudit1               deb      1:3.0.9-1              1:3.0.9-1              
+     libblkid1               deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     libbz2-1.0              deb      1.0.8-5+b1             1.0.8-5+b1             
+     libc-bin                deb      2.36-9+deb12u7         2.36-9+deb12u7         
+     libc6                   deb      2.36-9+deb12u7         2.36-9+deb12u7         
+     libcap-ng               deb      0.8.3-1                0.8.3-1                
+     libcap-ng0              deb      0.8.3-1+b3             0.8.3-1+b3             
+     libcap2                 deb      1:2.66-4               1:2.66-4               
+     libcom-err2             deb      1.47.0-2               1.47.0-2               
+     libcrypt1               deb      1:4.4.33-2             1:4.4.33-2             
+     libdb5.3                deb      5.3.28+dfsg2-1         5.3.28+dfsg2-1         
+     libdebconfclient0       deb      0.270                  0.270                  
+     libexpat1               deb      2.5.0-1                2.5.0-1                
+     libext2fs2              deb      1.47.0-2               1.47.0-2               
+     libffi                  deb      3.4.4-1                3.4.4-1                
+     libffi8                 deb      3.4.4-1                3.4.4-1                
+     libgcc-s1               deb      12.2.0-14              12.2.0-14              
+     libgcrypt20             deb      1.10.1-3               1.10.1-3               
+     libgdbm6                deb      1.23-3                 1.23-3                 
+     libgmp10                deb      2:6.2.1+dfsg1-1.1      2:6.2.1+dfsg1-1.1      
+     libgnutls30             deb      3.7.9-2+deb12u3        3.7.9-2+deb12u3        
+     libgpg-error            deb      1.46-1                 1.46-1                 
+     libgpg-error0           deb      1.46-1                 1.46-1                 
+     libgssapi-krb5-2        deb      1.20.1-2+deb12u2       1.20.1-2+deb12u2       
+     libhogweed6             deb      3.8.1-2                3.8.1-2                
+     libidn2                 deb      2.3.3-1                2.3.3-1                
+     libidn2-0               deb      2.3.3-1+b1             2.3.3-1+b1             
+     libk5crypto3            deb      1.20.1-2+deb12u2       1.20.1-2+deb12u2       
+     libkeyutils1            deb      1.6.3-2                1.6.3-2                
+     libkrb5-3               deb      1.20.1-2+deb12u2       1.20.1-2+deb12u2       
+     libkrb5support0         deb      1.20.1-2+deb12u2       1.20.1-2+deb12u2       
+     liblz4-1                deb      1.9.4-1                1.9.4-1                
+     liblzma5                deb      5.4.1-0.2              5.4.1-0.2              
+     libmd                   deb      1.0.4-2                1.0.4-2                
+     libmd0                  deb      1.0.4-2                1.0.4-2                
+     libmount1               deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     libncursesw6            deb      6.4-4                  6.4-4                  
+     libnettle8              deb      3.8.1-2                3.8.1-2                
+     libnsl                  deb      1.3.0-2                1.3.0-2                
+     libnsl2                 deb      1.3.0-2                1.3.0-2                
+     libp11-kit0             deb      0.24.1-2               0.24.1-2               
+     libpam-modules          deb      1.5.2-6+deb12u1        1.5.2-6+deb12u1        
+     libpam-modules-bin      deb      1.5.2-6+deb12u1        1.5.2-6+deb12u1        
+     libpam-runtime          deb      1.5.2-6+deb12u1        1.5.2-6+deb12u1        
+     libpam0g                deb      1.5.2-6+deb12u1        1.5.2-6+deb12u1        
+     libpcre2-8-0            deb      10.42-1                10.42-1                
+     libreadline8            deb      8.2-1.3                8.2-1.3                
+     libseccomp              deb      2.5.4-1+deb12u1        2.5.4-1+deb12u1        
+     libseccomp2             deb      2.5.4-1+deb12u1        2.5.4-1+deb12u1        
+     libselinux              deb      3.4-1                  3.4-1                  
+     libselinux1             deb      3.4-1+b6               3.4-1+b6               
+     libsemanage             deb      3.4-1                  3.4-1                  
+     libsemanage-common      deb      3.4-1                  3.4-1                  
+     libsemanage2            deb      3.4-1+b5               3.4-1+b5               
+     libsepol                deb      3.4-2.1                3.4-2.1                
+     libsepol2               deb      3.4-2.1                3.4-2.1                
+     libsmartcols1           deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     libsqlite3-0            deb      3.40.1-2               3.40.1-2               
+     libss2                  deb      1.47.0-2               1.47.0-2               
+     libssl3                 deb      3.0.13-1~deb12u1       3.0.13-1~deb12u1       
+     libstdc++6              deb      12.2.0-14              12.2.0-14              
+     libsystemd0             deb      252.26-1~deb12u2       252.26-1~deb12u2       
+     libtasn1-6              deb      4.19.0-2               4.19.0-2               
+     libtinfo6               deb      6.4-4                  6.4-4                  
+     libtirpc                deb      1.3.3+ds-1             1.3.3+ds-1             
+     libtirpc-common         deb      1.3.3+ds-1             1.3.3+ds-1             
+     libtirpc3               deb      1.3.3+ds-1             1.3.3+ds-1             
+     libudev1                deb      252.26-1~deb12u2       252.26-1~deb12u2       
+     libunistring            deb      1.0-2                  1.0-2                  
+     libunistring2           deb      1.0-2                  1.0-2                  
+     libuuid1                deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     libxcrypt               deb      1:4.4.33-2             1:4.4.33-2             
+     libxxhash0              deb      0.8.1-1                0.8.1-1                
+     libzstd                 deb      1.5.4+dfsg2-5          1.5.4+dfsg2-5          
+     libzstd1                deb      1.5.4+dfsg2-5          1.5.4+dfsg2-5          
+     login                   deb      1:4.13+dfsg1-1+b1      1:4.13+dfsg1-1+b1      
+     logsave                 deb      1.47.0-2               1.47.0-2               
+     lz4                     deb      1.9.4-1                1.9.4-1                
+     mawk                    deb      1.3.4.20200120-3.1     1.3.4.20200120-3.1     
+     more-itertools          pypi     10.3.0                 10.3.0                 
+     mount                   deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     my-test-package         pypi     1.0                    1.0                    
+     ncurses                 deb      6.4-4                  6.4-4                  
+     ncurses-base            deb      6.4-4                  6.4-4                  
+     ncurses-bin             deb      6.4-4                  6.4-4                  
+     netbase                 deb      6.4                    6.4                    
+     nettle                  deb      3.8.1-2                3.8.1-2                
+     openssl                 deb      3.0.13-1~deb12u1       3.0.13-1~deb12u1       
+     ordered-set             pypi     4.1.0                  4.1.0                  
+     p11-kit                 deb      0.24.1-2               0.24.1-2               
+     packaging               pypi     24.1                   24.1                   
+     pam                     deb      1.5.2-6+deb12u1        1.5.2-6+deb12u1        
+     passwd                  deb      1:4.13+dfsg1-1+b1      1:4.13+dfsg1-1+b1      
+     pcre2                   deb      10.42-1                10.42-1                
+     perl                    deb      5.36.0-7+deb12u1       5.36.0-7+deb12u1       
+     perl-base               deb      5.36.0-7+deb12u1       5.36.0-7+deb12u1       
+     pip                     pypi     24.2                   24.2                   
+     platformdirs            pypi     4.2.2                  4.2.2                  
+     python                  generic  3.12.5                 3.12.5                 
+     readline                deb      8.2-1.3                8.2-1.3                
+     readline-common         deb      8.2-1.3                8.2-1.3                
+     sed                     deb      4.9-1                  4.9-1                  
+     setuptools              pypi     72.1.0                 72.1.0                 
+     shadow                  deb      1:4.13+dfsg1-1         1:4.13+dfsg1-1         
+     sqlite3                 deb      3.40.1-2               3.40.1-2               
+     systemd                 deb      252.26-1~deb12u2       252.26-1~deb12u2       
+     sysvinit                deb      3.06-4                 3.06-4                 
+     sysvinit-utils          deb      3.06-4                 3.06-4                 
+     tar                     deb      1.34+dfsg-1.2+deb12u1  1.34+dfsg-1.2+deb12u1  
+     tomli                   pypi     2.0.1                  2.0.1                  
+     typeguard               pypi     4.3.0                  4.3.0                  
+     typing-extensions       pypi     4.12.2                 4.12.2                 
+     tzdata                  deb      2024a-0+deb12u1        2024a-0+deb12u1        
+     usr-is-merged           deb      37~deb12u1             37~deb12u1             
+     usrmerge                deb      37~deb12u1             37~deb12u1             
+     util-linux              deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     util-linux-extra        deb      2.38.1-5+deb12u1       2.38.1-5+deb12u1       
+     wheel                   pypi     0.44.0                 0.44.0                 
+     xxhash                  deb      0.8.1-1                0.8.1-1                
+     xz-utils                deb      5.4.1-0.2              5.4.1-0.2              
+     zipp                    pypi     3.19.2                 3.19.2                 
+     zlib                    deb      1:1.2.13.dfsg-1        1:1.2.13.dfsg-1        
+     zlib1g                  deb      1:1.2.13.dfsg-1        1:1.2.13.dfsg-1        
+  
+  

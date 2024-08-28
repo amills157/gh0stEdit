@@ -1,0 +1,15 @@
+docker pull quay.io/deepfenceio/deepfence_malware_scanner_ce:2.3.0
+
+docker run -i --rm --name=deepfence-yarahunter \
+     -v /var/run/docker.sock:/var/run/docker.sock \
+     -v /tmp:/home/deepfence/output \
+     quay.io/deepfenceio/deepfence_malware_scanner_ce:2.3.0 \
+     --image-name dh157/python:3.12-slim \
+     --output=json > yarahunter_dh157_python.json
+     
+docker run -i --rm --name=deepfence-yarahunter \
+     -v /var/run/docker.sock:/var/run/docker.sock \
+     -v /tmp:/home/deepfence/output \
+     quay.io/deepfenceio/deepfence_malware_scanner_ce:2.3.0 \
+     --image-name python:3.12-slim \
+     --output=json > yarahunter_python.json

@@ -1,0 +1,59 @@
+{
+    "SchemaVersion": 2,
+    "CreatedAt": "2024-08-27T16:33:19.269913804+01:00",
+    "ArtifactName": "dh157/alpine:3.20.2",
+    "ArtifactType": "container_image",
+    "Metadata": {
+      "OS": {
+        "Family": "alpine",
+        "Name": "3.20.2"
+      },
+      "ImageID": "sha256:d05190ba24939912e2aeb6ea4bdb4e758d6368cb4b330a99d2ff029a36de843d",
+      "DiffIDs": [
+        "sha256:b081c4047c78bc9f5d2023bf2b8b62fe1dea3c64b5869710100c8a43fad6e605"
+      ],
+      "RepoTags": [
+        "dh157/alpine:3.20.2"
+      ],
+      "ImageConfig": {
+        "architecture": "amd64",
+        "container": "fc33bc50844a0d6cdfc682fcf85647ec60783decbd3850e58ab7e013ef892cfb",
+        "created": "2024-07-22T22:26:43.778747613Z",
+        "docker_version": "23.0.11",
+        "history": [
+          {
+            "created": "2024-07-22T22:26:43Z",
+            "created_by": "/bin/sh -c #(nop) ADD file:99093095d62d0421541d882f9ceeddb2981fe701ec0aa9d2c08480712d5fed21 in / "
+          },
+          {
+            "created": "2024-07-22T22:26:43Z",
+            "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/sh\"]",
+            "empty_layer": true
+          }
+        ],
+        "os": "linux",
+        "rootfs": {
+          "type": "layers",
+          "diff_ids": [
+            "sha256:b081c4047c78bc9f5d2023bf2b8b62fe1dea3c64b5869710100c8a43fad6e605"
+          ]
+        },
+        "config": {
+          "Cmd": [
+            "/bin/sh"
+          ],
+          "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+          ],
+          "Image": "sha256:3e25db883ea289c8b0d3006e7a6a03c56be09c50f03f6b228ba2fe74fd8194d2"
+        }
+      }
+    },
+    "Results": [
+      {
+        "Target": "dh157/alpine:3.20.2 (alpine 3.20.2)",
+        "Class": "os-pkgs",
+        "Type": "alpine"
+      }
+    ]
+  }

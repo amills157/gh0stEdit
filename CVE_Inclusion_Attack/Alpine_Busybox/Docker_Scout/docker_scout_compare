@@ -1,0 +1,53 @@
+  
+  
+  ## Overview
+  
+                      │        Analyzed Image         │      Comparison Image        
+  ────────────────────┼───────────────────────────────┼──────────────────────────────
+    Target            │  local://dh157/alpine:3.20.2  │  alpine:3.20.2               
+      digest          │  d05190ba2493                 │  324bc02ae123                
+      tag             │  3.20.2                       │  3.20                        
+      platform        │ linux/amd64                   │ linux/amd64                  
+      vulnerabilities │    0C     0H     0M     0L    │    0C     0H     0M     0L   
+                      │                               │                              
+      size            │ 4.0 MB (+20 kB)               │ 4.0 MB                       
+      packages        │ 17                            │ 17                           
+                      │                               │                              
+  
+  
+  ## Environment Variables
+  
+  
+      PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  
+  
+  
+  ## Packages and Vulnerabilities
+  
+  
+        17 packages unchanged
+  
+  
+  
+  
+     Package                 Type  Version      Compared Version  
+  
+     alpine-baselayout       apk   3.6.5-r0     3.6.5-r0          
+     alpine-baselayout-data  apk   3.6.5-r0     3.6.5-r0          
+     alpine-keys             apk   2.4-r1       2.4-r1            
+     apk-tools               apk   2.14.4-r0    2.14.4-r0         
+     busybox                 apk   1.36.1-r29   1.36.1-r29        
+     busybox-binsh           apk   1.36.1-r29   1.36.1-r29        
+     ca-certificates         apk   20240705-r0  20240705-r0       
+     ca-certificates-bundle  apk   20240705-r0  20240705-r0       
+     libcrypto3              apk   3.3.1-r3     3.3.1-r3          
+     libssl3                 apk   3.3.1-r3     3.3.1-r3          
+     musl                    apk   1.2.5-r0     1.2.5-r0          
+     musl-utils              apk   1.2.5-r0     1.2.5-r0          
+     openssl                 apk   3.3.1-r3     3.3.1-r3          
+     pax-utils               apk   1.3.7-r2     1.3.7-r2          
+     scanelf                 apk   1.3.7-r2     1.3.7-r2          
+     ssl_client              apk   1.36.1-r29   1.36.1-r29        
+     zlib                    apk   1.3.1-r1     1.3.1-r1          
+  
+  
