@@ -9,4 +9,4 @@ Scan results are broken down between two separate attack examples
 
 Below we show an end to end demonstration of a CVE inclusion attack on a image signed using the DCT (https://docs.docker.com/engine/security/trust/)
 
-<video src='gh0st edit DCT_pt_1.mp4' width=180/>
+<video src='[gh0st edit DCT_pt_1.mp4](https://github.com/amills157/gh0st_edit/blob/main/gh0st%20edit%20DCT_pt_1.mp4)' width=180/>
