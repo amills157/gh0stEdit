@@ -7,6 +7,7 @@ Scan results are broken down between two separate attack examples
 * Edited binary
 * CVE inclusion
 
-Below we show an end to end demonstration of a CVE inclusion attack on a image signed using the DCT (https://docs.docker.com/engine/security/trust/)
+We also show an end to end demonstration of a CVE inclusion attack on a image signed using the DCT (https://docs.docker.com/engine/security/trust/) in the videos within this repo
 
-<video src='[gh0st edit DCT_pt_1.mp4](https://github.com/amills157/gh0st_edit/blob/main/gh0st%20edit%20DCT_pt_1.mp4)' width=180/>
+Part 1 - Shows the attack and the comparision of the signature before and after
+Part 2 - Shows a Docker Scout compare and CVE report
