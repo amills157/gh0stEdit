@@ -1,6 +1,8 @@
 # gh0stEdit
 
-This repository contains initial Proof Of Concept (PoC) scripts for the gh0st edit vulnerability and scan results from images which had been edited using this method. 
+This repository contains initial Proof Of Concept (PoC) scripts for the gh0stEdit exploit and scan results from images which had been edited using this method. 
+
+Further details on the gh0stEdit exploit can be found .[here](https://arxiv.org/pdf/2506.08218)
 
 Scan results are broken down between two separate attack examples
 
